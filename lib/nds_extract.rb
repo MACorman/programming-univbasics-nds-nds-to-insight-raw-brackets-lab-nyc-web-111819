@@ -23,7 +23,7 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   results = {}
   row_index = 0 
-    while row_index < directors_database.length do 
+    while row_index <= directors_database.length do 
       name = directors_database[row_index][:name]
       gross_totals = []
       director_hash = directors_database[row_index]
