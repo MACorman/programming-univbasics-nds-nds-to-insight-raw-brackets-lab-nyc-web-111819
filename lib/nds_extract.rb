@@ -33,7 +33,6 @@ def directors_totals(nds)
       end
       results.merge!(name => gross_totals.sum)
       row_index += 1
-      binding.pry
     end
   return results
 end
